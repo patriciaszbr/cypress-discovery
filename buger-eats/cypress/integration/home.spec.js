@@ -1,5 +1,5 @@
 describe("home page", () => {
-  it("App deve estar online", () => {
+  it("App deve estar online.", () => {
     cy.viewport(1440, 900);
     cy.visit("https://buger-eats.vercel.app");
     cy.get("h1").should(
